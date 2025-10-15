@@ -12,7 +12,6 @@
         <div>
             <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/WebForm1.aspx">Cookies</asp:HyperLink>
             <br />
-            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/WebForm2.aspx">Reporte</asp:HyperLink>
         </div>
     </form>
 </body>
