@@ -89,11 +89,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="EjemploCookies.aspx" />
+    <Content Include="EjemploSession.aspx" />
     <Content Include="Menu.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EjemploCookies.aspx.cs">
+      <DependentUpon>EjemploCookies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EjemploCookies.aspx.designer.cs">
+      <DependentUpon>EjemploCookies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EjemploSession.aspx.cs">
+      <DependentUpon>EjemploSession.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EjemploSession.aspx.designer.cs">
+      <DependentUpon>EjemploSession.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Menu.aspx.cs">
       <DependentUpon>Menu.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

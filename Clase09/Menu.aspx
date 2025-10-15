@@ -10,7 +10,12 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/WebForm1.aspx">Cookies</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/WebForm1.aspx">Cookies y Sessions</asp:HyperLink>
+            <br />
+            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/EjemploCookies.aspx">Cookies</asp:HyperLink>
+            <br />
+            <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/EjemploSession.aspx">Sessions</asp:HyperLink>
+            <br />
             <br />
         </div>
     </form>
